@@ -1,0 +1,92 @@
+header img { 
+    height: 110px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #F8615A;
+    font-size: 22px;
+    padding: 5px 15px;
+    font-family: 'Dokdo';
+}
+
+header{
+    text-align: center;
+    background-color: #FFB385;
+    color: #DA3D20;
+    font-size: large;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+nav a:hover{
+    color: #FF9644;
+    transition: 2s;
+    border-radius: 20px 20px 20px 20px;
+    padding: 7px 20px;
+}
+
+body{
+    margin: 0;
+}
+
+.deskhome { 
+   width: 40%;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+.home{
+height: 800px;
+background-image: url("bg3.png");
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 30px;
+font-size: large;
+}
+
+.deskhome a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #F8615A;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-family: 'Gaegu';
+}
+
+.deskhome a:hover{
+    box-shadow: 3px 3px 5px -3px black;
+    transition: 0.5s;
+}
+
+h1{
+font-family: 'Barrio';
+color: #d2dae9;
+}
+
+h2{
+font-family: 'Barrio';
+color: #bacddb;
+}
+
+p{
+    color: #EDEDCE;
+    font-family: 'Covered By Your Grace';
+    font-size: 23px;
+}
+
+section.project {
+    height: 800px;
+    text-align: center;
+}
+
+.containerAbout {
+    width: 50%;
+    margin:auto;
+    padding: 50px 20px;
+    & img {
+        height: 300px;
+    }
+}
